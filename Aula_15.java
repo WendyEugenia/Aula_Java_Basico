@@ -4,6 +4,7 @@ public class Aula_15 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//Saber hora atual e segundos
 		
 		long totalMiliSegundos = System.currentTimeMillis() ;// o Tempo e  de milicegundos desde 1970
 		
