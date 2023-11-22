@@ -17,9 +17,9 @@ public class Aula_19 {
 		
 		if(idade < 1){ // o if e só uma instrução
 			System.out.println("idade informada não é valida");
-		}else if(idade <18){ //
+		}else if(idade <18){ //caso contrario
 			System.out.println("\n Você é menor de Idade !!");
-		}else {//caso contrario
+		}else {
 			System.out.println("\n Você é maior de Idade !!");
 		}
 	}
