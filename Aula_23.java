@@ -3,13 +3,23 @@ package Atividades;
 public class Aula_23 {
 
 	public static void main(String[] args) {
-		//while
-		int i = 1;
+		//do while
 		
-		while(i < 101) {
+		
+		int i = 1;
+		int j = 1;
+		
+	
+		do { //do e faça 
 			System.out.println(i);
-			++i; // e igual a  i = i+1
+			++i; 
+		} while(i <1); // enquanto
+		
+		
+		while(j <2) {
+			System.out.println(j);
+			++j; 
 		}
+
 	}
 }
-// 
