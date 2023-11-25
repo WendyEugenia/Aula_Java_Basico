@@ -1,6 +1,5 @@
 package Atividades;
 
-import java.util.Scanner;
 
 public class Aula_28 {
 	//Condição
