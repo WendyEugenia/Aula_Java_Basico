@@ -1,37 +1,24 @@
 package Atividades;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Aula_26 {
-
+	//achando seu numero
 	public static void main(String[] args) {
 		
-		Scanner leia = new Scanner(System.in);
-		Random random = new Random();
+		Scanner leia = new Scanner(System.in);   
 		
-		boolean acertou = false;
-		int tentativas =10;
-		int numeroSecreto =random.nextInt();
-		long chute =0;
+		System.out.println("Digite um numero de 0 a 10:");
+		int numero = leia.nextInt();
 		
-		System.out.println(numeroSecreto);
-		
-		while (tentativas > 0 && acertou == false) {
-			System.out.println("\nQual seu chute? ");
-			chute = leia.nextLong();
-			
-			if(numeroSecreto == chute) {
-				System.out.println("\nVocê acertou!!");
-				acertou = true;
-			} else if(chute < numeroSecreto) {
-				--tentativas;
-				System.out.println("Numero pequeno! " +tentativas+ " tentativas restantes");
-			}else {
-				--tentativas;
-				System.out.println("Numero grande! " +tentativas+ "tentativas restantes");
-			}
+		for (int i = 0; i<=10; ++i ) { //for e feito para uma repetição com umacondição
+
+		if(numero == i){
+			System.out.println("Seu numero é: "+i);
+			break;
+		}else {
+			System.out.println("Seu numero não é: "+i);
 		}
-		
 	}
+}
 }
