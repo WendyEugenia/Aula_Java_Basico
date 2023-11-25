@@ -12,7 +12,7 @@ public class Aula_28 {
 		int a = 10;
 		int b = 20;
 		int maior;
-		
+						//V  F					
 		maior = (a<b) ? 500: 1000;
 		
 		System.out.println(maior);
